@@ -1,8 +1,8 @@
-package = "say"
+package = "sayit"
 local rock_version = "scm"
 local rock_release = "1"
-local namespace = "lunarmodules"
-local repository = package
+local namespace = "kulti"
+local repository = "sayit"
 
 rockspec_format = "3.0"
 version = ("%s-%s"):format(rock_version, rock_release)
@@ -21,7 +21,6 @@ description = {
   license = "MIT",
   homepage = ("https://%s.github.io/%s"):format(namespace, repository),
   issues_url = ("https://github.com/%s/%s/issues"):format(namespace, repository),
-  maintainer = "Caleb Maclennan <caleb@alerque.com>",
 }
 
 dependencies = {
